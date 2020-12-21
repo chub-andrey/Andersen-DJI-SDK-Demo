@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABE5AB8258FA78B00198C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5AB7258FA78B00198C0E /* AppDelegate.swift */; };
+		CABE5ABA258FA78B00198C0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5AB9258FA78B00198C0E /* SceneDelegate.swift */; };
+		CABE5ABC258FA78B00198C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5ABB258FA78B00198C0E /* ViewController.swift */; };
+		CABE5ABF258FA78B00198C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE5ABD258FA78B00198C0E /* Main.storyboard */; };
+		CABE5AC1258FA78E00198C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABE5AC0258FA78E00198C0E /* Assets.xcassets */; };
+		CABE5AC4258FA78E00198C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE5AC2258FA78E00198C0E /* LaunchScreen.storyboard */; };
+		CABE5ACF258FA78E00198C0E /* AndersenDroneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5ACE258FA78E00198C0E /* AndersenDroneAppTests.swift */; };
+		CABE5ADA258FA78E00198C0E /* AndersenDroneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5AD9258FA78E00198C0E /* AndersenDroneAppUITests.swift */; };
+		CABE5AFD258FB1BE00198C0E /* DefaultLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE5AFC258FB1BE00198C0E /* DefaultLayoutViewController.swift */; };
+		CABE5B02258FB3AD00198C0E /* DefaultLayoutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE5B01258FB3AD00198C0E /* DefaultLayoutViewController.storyboard */; };
+		FAA66C486890B85898AE70D4 /* Pods_AndersenDroneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83C660E334B343F1308ECB /* Pods_AndersenDroneApp.framework */; };
+		FCD5059D5843B500F1F80B7A /* Pods_AndersenDroneAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBACC5B24660987050A1CC /* Pods_AndersenDroneAppTests.framework */; };
+		FDF1876E2CE593754CDA3D9B /* Pods_AndersenDroneApp_AndersenDroneAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA00E801A599641CD266C34 /* Pods_AndersenDroneApp_AndersenDroneAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABE5ACB258FA78E00198C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABE5AAC258FA78B00198C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABE5AB3258FA78B00198C0E;
+			remoteInfo = AndersenDroneApp;
+		};
+		CABE5AD6258FA78E00198C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABE5AAC258FA78B00198C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABE5AB3258FA78B00198C0E;
+			remoteInfo = AndersenDroneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B51CAE487037AA1BB59571 /* Pods-AndersenDroneAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AndersenDroneAppTests/Pods-AndersenDroneAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF57646D86FD34C2E876B41 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneApp-AndersenDroneAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AndersenDroneApp-AndersenDroneAppUITests/Pods-AndersenDroneApp-AndersenDroneAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46FFC61816EBFAB0B5657734 /* Pods-AndersenDroneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneApp.release.xcconfig"; path = "Target Support Files/Pods-AndersenDroneApp/Pods-AndersenDroneApp.release.xcconfig"; sourceTree = "<group>"; };
+		5E30CB2ED2C2CCF4469387F5 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneApp-AndersenDroneAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AndersenDroneApp-AndersenDroneAppUITests/Pods-AndersenDroneApp-AndersenDroneAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7224738C907C54977BA700A8 /* Pods-AndersenDroneAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneAppTests.release.xcconfig"; path = "Target Support Files/Pods-AndersenDroneAppTests/Pods-AndersenDroneAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		96BBACC5B24660987050A1CC /* Pods_AndersenDroneAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndersenDroneAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A488B14EE17EF299702FEB9E /* Pods-AndersenDroneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndersenDroneApp.debug.xcconfig"; path = "Target Support Files/Pods-AndersenDroneApp/Pods-AndersenDroneApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CABE5AB4258FA78B00198C0E /* AndersenDroneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndersenDroneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE5AB7258FA78B00198C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABE5AB9258FA78B00198C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CABE5ABB258FA78B00198C0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CABE5ABE258FA78B00198C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABE5AC0258FA78E00198C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABE5AC3258FA78E00198C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABE5AC5258FA78E00198C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE5ACA258FA78E00198C0E /* AndersenDroneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndersenDroneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE5ACE258FA78E00198C0E /* AndersenDroneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndersenDroneAppTests.swift; sourceTree = "<group>"; };
+		CABE5AD0258FA78E00198C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE5AD5258FA78E00198C0E /* AndersenDroneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndersenDroneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE5AD9258FA78E00198C0E /* AndersenDroneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndersenDroneAppUITests.swift; sourceTree = "<group>"; };
+		CABE5ADB258FA78E00198C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE5AFC258FB1BE00198C0E /* DefaultLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLayoutViewController.swift; sourceTree = "<group>"; };
+		CABE5B01258FB3AD00198C0E /* DefaultLayoutViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DefaultLayoutViewController.storyboard; sourceTree = "<group>"; };
+		EBA00E801A599641CD266C34 /* Pods_AndersenDroneApp_AndersenDroneAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndersenDroneApp_AndersenDroneAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC83C660E334B343F1308ECB /* Pods_AndersenDroneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndersenDroneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABE5AB1258FA78B00198C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA66C486890B85898AE70D4 /* Pods_AndersenDroneApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AC7258FA78E00198C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD5059D5843B500F1F80B7A /* Pods_AndersenDroneAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AD2258FA78E00198C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF1876E2CE593754CDA3D9B /* Pods_AndersenDroneApp_AndersenDroneAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9E7B93AF9AFC96C8A5B590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A488B14EE17EF299702FEB9E /* Pods-AndersenDroneApp.debug.xcconfig */,
+				46FFC61816EBFAB0B5657734 /* Pods-AndersenDroneApp.release.xcconfig */,
+				3FF57646D86FD34C2E876B41 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.debug.xcconfig */,
+				5E30CB2ED2C2CCF4469387F5 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.release.xcconfig */,
+				09B51CAE487037AA1BB59571 /* Pods-AndersenDroneAppTests.debug.xcconfig */,
+				7224738C907C54977BA700A8 /* Pods-AndersenDroneAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CABE5AAB258FA78B00198C0E = {
+			isa = PBXGroup;
+			children = (
+				CABE5AB6258FA78B00198C0E /* AndersenDroneApp */,
+				CABE5ACD258FA78E00198C0E /* AndersenDroneAppTests */,
+				CABE5AD8258FA78E00198C0E /* AndersenDroneAppUITests */,
+				CABE5AB5258FA78B00198C0E /* Products */,
+				1B9E7B93AF9AFC96C8A5B590 /* Pods */,
+				D5502FF6F4A8850F233D9712 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CABE5AB5258FA78B00198C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABE5AB4258FA78B00198C0E /* AndersenDroneApp.app */,
+				CABE5ACA258FA78E00198C0E /* AndersenDroneAppTests.xctest */,
+				CABE5AD5258FA78E00198C0E /* AndersenDroneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABE5AB6258FA78B00198C0E /* AndersenDroneApp */ = {
+			isa = PBXGroup;
+			children = (
+				CABE5AB7258FA78B00198C0E /* AppDelegate.swift */,
+				CABE5AB9258FA78B00198C0E /* SceneDelegate.swift */,
+				CABE5B01258FB3AD00198C0E /* DefaultLayoutViewController.storyboard */,
+				CABE5AFC258FB1BE00198C0E /* DefaultLayoutViewController.swift */,
+				CABE5ABB258FA78B00198C0E /* ViewController.swift */,
+				CABE5ABD258FA78B00198C0E /* Main.storyboard */,
+				CABE5AC0258FA78E00198C0E /* Assets.xcassets */,
+				CABE5AC2258FA78E00198C0E /* LaunchScreen.storyboard */,
+				CABE5AC5258FA78E00198C0E /* Info.plist */,
+			);
+			path = AndersenDroneApp;
+			sourceTree = "<group>";
+		};
+		CABE5ACD258FA78E00198C0E /* AndersenDroneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABE5ACE258FA78E00198C0E /* AndersenDroneAppTests.swift */,
+				CABE5AD0258FA78E00198C0E /* Info.plist */,
+			);
+			path = AndersenDroneAppTests;
+			sourceTree = "<group>";
+		};
+		CABE5AD8258FA78E00198C0E /* AndersenDroneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABE5AD9258FA78E00198C0E /* AndersenDroneAppUITests.swift */,
+				CABE5ADB258FA78E00198C0E /* Info.plist */,
+			);
+			path = AndersenDroneAppUITests;
+			sourceTree = "<group>";
+		};
+		D5502FF6F4A8850F233D9712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC83C660E334B343F1308ECB /* Pods_AndersenDroneApp.framework */,
+				EBA00E801A599641CD266C34 /* Pods_AndersenDroneApp_AndersenDroneAppUITests.framework */,
+				96BBACC5B24660987050A1CC /* Pods_AndersenDroneAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABE5AB3258FA78B00198C0E /* AndersenDroneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE5ADE258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneApp" */;
+			buildPhases = (
+				6302A2B57DE23473C3F9B29E /* [CP] Check Pods Manifest.lock */,
+				CABE5AB0258FA78B00198C0E /* Sources */,
+				CABE5AB1258FA78B00198C0E /* Frameworks */,
+				CABE5AB2258FA78B00198C0E /* Resources */,
+				F2623BAE18B585DBF0656C6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndersenDroneApp;
+			productName = AndersenDroneApp;
+			productReference = CABE5AB4258FA78B00198C0E /* AndersenDroneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABE5AC9258FA78E00198C0E /* AndersenDroneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE5AE1258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneAppTests" */;
+			buildPhases = (
+				C416C043F1AE972F277C55B1 /* [CP] Check Pods Manifest.lock */,
+				CABE5AC6258FA78E00198C0E /* Sources */,
+				CABE5AC7258FA78E00198C0E /* Frameworks */,
+				CABE5AC8258FA78E00198C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABE5ACC258FA78E00198C0E /* PBXTargetDependency */,
+			);
+			name = AndersenDroneAppTests;
+			productName = AndersenDroneAppTests;
+			productReference = CABE5ACA258FA78E00198C0E /* AndersenDroneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABE5AD4258FA78E00198C0E /* AndersenDroneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE5AE4258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneAppUITests" */;
+			buildPhases = (
+				E1385158DAD40A9262EC7303 /* [CP] Check Pods Manifest.lock */,
+				CABE5AD1258FA78E00198C0E /* Sources */,
+				CABE5AD2258FA78E00198C0E /* Frameworks */,
+				CABE5AD3258FA78E00198C0E /* Resources */,
+				01821EAF00F029B296D4BD64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABE5AD7258FA78E00198C0E /* PBXTargetDependency */,
+			);
+			name = AndersenDroneAppUITests;
+			productName = AndersenDroneAppUITests;
+			productReference = CABE5AD5258FA78E00198C0E /* AndersenDroneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABE5AAC258FA78B00198C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CABE5AB3258FA78B00198C0E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CABE5AC9258FA78E00198C0E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CABE5AB3258FA78B00198C0E;
+					};
+					CABE5AD4258FA78E00198C0E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CABE5AB3258FA78B00198C0E;
+					};
+				};
+			};
+			buildConfigurationList = CABE5AAF258FA78B00198C0E /* Build configuration list for PBXProject "AndersenDroneApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABE5AAB258FA78B00198C0E;
+			productRefGroup = CABE5AB5258FA78B00198C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABE5AB3258FA78B00198C0E /* AndersenDroneApp */,
+				CABE5AC9258FA78E00198C0E /* AndersenDroneAppTests */,
+				CABE5AD4258FA78E00198C0E /* AndersenDroneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABE5AB2258FA78B00198C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE5AC4258FA78E00198C0E /* LaunchScreen.storyboard in Resources */,
+				CABE5AC1258FA78E00198C0E /* Assets.xcassets in Resources */,
+				CABE5B02258FB3AD00198C0E /* DefaultLayoutViewController.storyboard in Resources */,
+				CABE5ABF258FA78B00198C0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AC8258FA78E00198C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AD3258FA78E00198C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01821EAF00F029B296D4BD64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp-AndersenDroneAppUITests/Pods-AndersenDroneApp-AndersenDroneAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp-AndersenDroneAppUITests/Pods-AndersenDroneApp-AndersenDroneAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp-AndersenDroneAppUITests/Pods-AndersenDroneApp-AndersenDroneAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6302A2B57DE23473C3F9B29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndersenDroneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C416C043F1AE972F277C55B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndersenDroneAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1385158DAD40A9262EC7303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndersenDroneApp-AndersenDroneAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2623BAE18B585DBF0656C6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp/Pods-AndersenDroneApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp/Pods-AndersenDroneApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndersenDroneApp/Pods-AndersenDroneApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABE5AB0258FA78B00198C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE5ABC258FA78B00198C0E /* ViewController.swift in Sources */,
+				CABE5AB8258FA78B00198C0E /* AppDelegate.swift in Sources */,
+				CABE5AFD258FB1BE00198C0E /* DefaultLayoutViewController.swift in Sources */,
+				CABE5ABA258FA78B00198C0E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AC6258FA78E00198C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE5ACF258FA78E00198C0E /* AndersenDroneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE5AD1258FA78E00198C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE5ADA258FA78E00198C0E /* AndersenDroneAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABE5ACC258FA78E00198C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABE5AB3258FA78B00198C0E /* AndersenDroneApp */;
+			targetProxy = CABE5ACB258FA78E00198C0E /* PBXContainerItemProxy */;
+		};
+		CABE5AD7258FA78E00198C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABE5AB3258FA78B00198C0E /* AndersenDroneApp */;
+			targetProxy = CABE5AD6258FA78E00198C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABE5ABD258FA78B00198C0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE5ABE258FA78B00198C0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABE5AC2258FA78E00198C0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE5AC3258FA78E00198C0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABE5ADC258FA78E00198C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABE5ADD258FA78E00198C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABE5ADF258FA78E00198C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A488B14EE17EF299702FEB9E /* Pods-AndersenDroneApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYFX5N77R8;
+				INFOPLIST_FILE = AndersenDroneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.achub.AndersenDroneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABE5AE0258FA78E00198C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FFC61816EBFAB0B5657734 /* Pods-AndersenDroneApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UYFX5N77R8;
+				INFOPLIST_FILE = AndersenDroneApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.achub.AndersenDroneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CABE5AE2258FA78E00198C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B51CAE487037AA1BB59571 /* Pods-AndersenDroneAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndersenDroneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Andrewchub.AndersenDroneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndersenDroneApp.app/AndersenDroneApp";
+			};
+			name = Debug;
+		};
+		CABE5AE3258FA78E00198C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7224738C907C54977BA700A8 /* Pods-AndersenDroneAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndersenDroneAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Andrewchub.AndersenDroneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndersenDroneApp.app/AndersenDroneApp";
+			};
+			name = Release;
+		};
+		CABE5AE5258FA78E00198C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF57646D86FD34C2E876B41 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndersenDroneAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Andrewchub.AndersenDroneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndersenDroneApp;
+			};
+			name = Debug;
+		};
+		CABE5AE6258FA78E00198C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E30CB2ED2C2CCF4469387F5 /* Pods-AndersenDroneApp-AndersenDroneAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AndersenDroneAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Andrewchub.AndersenDroneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndersenDroneApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABE5AAF258FA78B00198C0E /* Build configuration list for PBXProject "AndersenDroneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE5ADC258FA78E00198C0E /* Debug */,
+				CABE5ADD258FA78E00198C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE5ADE258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE5ADF258FA78E00198C0E /* Debug */,
+				CABE5AE0258FA78E00198C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE5AE1258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE5AE2258FA78E00198C0E /* Debug */,
+				CABE5AE3258FA78E00198C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE5AE4258FA78E00198C0E /* Build configuration list for PBXNativeTarget "AndersenDroneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE5AE5258FA78E00198C0E /* Debug */,
+				CABE5AE6258FA78E00198C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABE5AAC258FA78B00198C0E /* Project object */;
+}
